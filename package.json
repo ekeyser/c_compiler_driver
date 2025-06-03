@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
     "build": "bun build src/index.ts --compile --outfile c_driver"
   },
   "keywords": [],
@@ -17,6 +18,8 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "eslint": "^9.28.0"
+    "@tsconfig/node22": "^22.0.2",
+    "eslint": "^9.28.0",
+    "typescript-eslint": "^8.33.1"
   }
 }
