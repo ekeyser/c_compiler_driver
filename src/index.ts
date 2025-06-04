@@ -42,9 +42,18 @@ const tokenize = (content: string) => {
     const _s = content.split("")
     console.log(_s)
 
+    const _match = (_s: string) => {
+
+
+    }
+
+    let _string = ""
+    let position = 0
     for (const _c of _s) {
 
-
+        position++
+        _string += _c
+        const _r = _match(_string)
     }
 
     return tokens
